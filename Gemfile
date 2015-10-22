@@ -32,6 +32,7 @@ group :development do
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
   gem 'spring-commands-rspec'
+  gem 'rails_apps_testing'
 end
 group :development, :test do
   gem 'factory_girl_rails'
